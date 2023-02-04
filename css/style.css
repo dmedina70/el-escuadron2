@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+}
+
+
+#logo_main {
+    width: 20%;
+}
+
+
+/* Set the border color */
+          
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+  
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+#logo_front{
+    position:relative;
+    width: 75%;
+    align-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.live {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+hr {
+    color: white;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    margin: 10px;
+}
+
+.social {
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+    
+}
+
+.fa-brands {
+    color: white;
+}
+
+.icon {
+    align-content: center;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.qr {
+    width: 45%;
+    align-content: center;
+}
+
+.qr_space {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    margin-bottom: 25%;
+}
+
+.p-4 {
+    padding-bottom: 0px!important;
+    padding-top: 50px!important;
+}
+
+iframe {
+    margin-left: 2%;
+}
